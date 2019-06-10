@@ -4,9 +4,9 @@ export PATH
 #===================================================================#
 #   System Required:  Debian or Ubuntu                              #
 #   Description: Install Shadowsocks-libev server for Debian/Ubuntu #
-#   Author: Teddysun <i@teddysun.com>                               #
+#   Author: Teddysun & xiechangan123 <i@teddysun.com>                               #
 #   Thanks: @madeye <https://github.com/madeye>                     #
-#   Intro:  https://teddysun.com/358.html                           #
+#   Intro:  https://www.xlovett.com/1288.html                           #
 #===================================================================#
 
 # Current folder
@@ -124,8 +124,8 @@ print_info(){
     clear
     echo "#############################################################"
     echo "# Install Shadowsocks-libev server for Debian or Ubuntu     #"
-    echo "# Intro:  https://teddysun.com/358.html                     #"
-    echo "# Author: Teddysun <i@teddysun.com>                         #"
+    echo "# Intro:  https://www.xlovett.com/1288.html                     #"
+    echo "# Author: Teddysun & xiechangan123 <i@teddysun.com>                         #"
     echo "# Github: https://github.com/shadowsocks/shadowsocks-libev  #"
     echo "#############################################################"
     echo
