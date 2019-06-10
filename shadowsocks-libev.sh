@@ -4,9 +4,9 @@ export PATH
 #===================================================================#
 #   System Required:  CentOS 6 or 7                                 #
 #   Description: Install Shadowsocks-libev server for CentOS 6 or 7 #
-#   Author: Teddysun <i@teddysun.com>                               #
+#   Author: Teddysun & xiechangan123 <i@teddysun.com>               #
 #   Thanks: @madeye <https://github.com/madeye>                     #
-#   Intro:  https://teddysun.com/357.html                           #
+#   Intro:  https://www.xlovett.com/1288.html                       #
 #===================================================================#
 
 # Current folder
@@ -118,8 +118,8 @@ print_info(){
     clear
     echo "#############################################################"
     echo "# Install Shadowsocks-libev server for CentOS 6 or 7        #"
-    echo "# Intro:  https://teddysun.com/357.html                     #"
-    echo "# Author: Teddysun <i@teddysun.com>                         #"
+    echo "# Intro:  https://www.xlovett.com/1288.html                 #"
+    echo "# Author: Teddysun & xiechangan123<i@teddysun.com>          #"
     echo "# Github: https://github.com/shadowsocks/shadowsocks-libev  #"
     echo "#############################################################"
     echo
@@ -499,7 +499,7 @@ install_shadowsocks(){
     echo -e "Your Password         : \033[41;37m ${shadowsockspwd} \033[0m"
     echo -e "Your Encryption Method: \033[41;37m ${shadowsockscipher} \033[0m"
     echo
-    echo "Welcome to visit:https://teddysun.com/357.html"
+    echo "Welcome to visit:https://www.xlovett.com/1288.html"
     echo "Enjoy it!"
     echo
 }
