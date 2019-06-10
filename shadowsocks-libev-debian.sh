@@ -449,7 +449,7 @@ install_shadowsocks(){
     echo -e "Your Password         : \033[41;37m ${shadowsockspwd} \033[0m"
     echo -e "Your Encryption Method: \033[41;37m ${shadowsockscipher} \033[0m"
     echo
-    echo "Welcome to visit:https://teddysun.com/358.html"
+    echo "Welcome to visit:https://www.xlovett.com/1288.html"
     echo "Enjoy it!"
     echo
 }
