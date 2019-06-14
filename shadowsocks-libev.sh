@@ -16,7 +16,7 @@ libsodium_file="libsodium-1.0.18"
 libsodium_url="https://download.libsodium.org/libsodium/releases/libsodium-1.0.18.tar.gz"
 
 mbedtls_file="mbedtls-2.16.1"
-mbedtls_url="https://tls.mbed.org/download/start/mbedtls-2.16.1-gpl.tgz"
+mbedtls_url="https://tls.mbed.org/download/mbedtls-2.16.1-gpl.tgz"
 
 # Stream Ciphers
 ciphers=(
