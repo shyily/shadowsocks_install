@@ -253,8 +253,8 @@ pre_install(){
 
     # Set shadowsocks-libev config password
     echo "Please input password for shadowsocks-libev:"
-    read -p "(Default password: teddysun.com):" shadowsockspwd
-    [ -z "${shadowsockspwd}" ] && shadowsockspwd="teddysun.com"
+    read -p "(Default password: xlovett.com):" shadowsockspwd
+    [ -z "${shadowsockspwd}" ] && shadowsockspwd="xlovett.com"
     echo
     echo "---------------------------"
     echo "password = ${shadowsockspwd}"
