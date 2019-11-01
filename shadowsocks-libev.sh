@@ -119,7 +119,7 @@ print_info(){
     echo "#############################################################"
     echo "# Install Shadowsocks-libev server for CentOS 6 or 7        #"
     echo "# Intro:  https://www.xlovett.com/1288.html                 #"
-    echo "# Author: Teddysun & xiechangan123<i@teddysun.com>          #"
+    echo "# Author: Teddysun & xiechangan123<i@xlovett.com>          #"
     echo "# Github: https://github.com/shadowsocks/shadowsocks-libev  #"
     echo "#############################################################"
     echo
@@ -263,8 +263,8 @@ pre_install(){
 
     # Set shadowsocks-libev config password
     echo "Please enter password for shadowsocks-libev:"
-    read -p "(Default password: teddysun.com):" shadowsockspwd
-    [ -z "${shadowsockspwd}" ] && shadowsockspwd="teddysun.com"
+    read -p "(Default password: xlovett.com):" shadowsockspwd
+    [ -z "${shadowsockspwd}" ] && shadowsockspwd="xlovett.com"
     echo
     echo "---------------------------"
     echo "password = ${shadowsockspwd}"
