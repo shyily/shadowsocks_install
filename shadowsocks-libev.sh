@@ -2,7 +2,7 @@
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 #===================================================================#
-#   System Required:  CentOS 6 or 7                                 #
+#   System Required:  CentOS 6 or 7 or 8                            #
 #   Description: Install Shadowsocks-libev server for CentOS 6 or 7 #
 #   Author: Teddysun & xiechangan123 <i@teddysun.com>               #
 #   Thanks: @madeye <https://github.com/madeye>                     #
@@ -83,7 +83,7 @@ get_char(){
 }
 
 get_latest_version(){
-    ver=$(wget --no-check-certificate -qO- https://api.github.com/repos/shadowsocks/shadowsocks-libev/releases/21110035 | grep 'tag_name' | cut -d\" -f4)
+    ver=$(wget --no-check-certificate -qO- https://api.github.com/repos/shadowsocks/shadowsocks-libev/releases/22730317 | grep 'tag_name' | cut -d\" -f4)
     [ -z ${ver} ] && echo "Error: Get shadowsocks-libev latest version failed" && exit 1
     shadowsocks_libev_ver="shadowsocks-libev-$(echo ${ver} | sed -e 's/^[a-zA-Z]//g')"
     download_link="https://github.com/shadowsocks/shadowsocks-libev/releases/download/${ver}/${shadowsocks_libev_ver}.tar.gz"
