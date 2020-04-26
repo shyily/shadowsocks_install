@@ -117,9 +117,9 @@ check_version(){
 print_info(){
     clear
     echo "#############################################################"
-    echo "# Install Shadowsocks-libev server for CentOS 6 or 7        #"
+    echo "# Install Shadowsocks-libev server for CentOS 6 or 7 or 8   #"
     echo "# Intro:  https://www.xlovett.com/1288.html                 #"
-    echo "# Author: Teddysun & xiechangan123<i@xlovett.com>          #"
+    echo "# Author: Teddysun & xiechangan123<i@xlovett.com>           #"
     echo "# Github: https://github.com/shadowsocks/shadowsocks-libev  #"
     echo "#############################################################"
     echo
