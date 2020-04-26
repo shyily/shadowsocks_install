@@ -124,8 +124,8 @@ print_info(){
     clear
     echo "#############################################################"
     echo "# Install Shadowsocks-libev server for Debian or Ubuntu     #"
-    echo "# Intro:  https://www.xlovett.com/1288.html                     #"
-    echo "# Author: Teddysun & xiechangan123 <i@teddysun.com>                         #"
+    echo "# Intro:  https://www.xlovett.com/1288.html                 #"
+    echo "# Author: Teddysun & xiechangan123 <i@teddysun.com>         #"
     echo "# Github: https://github.com/shadowsocks/shadowsocks-libev  #"
     echo "#############################################################"
     echo
