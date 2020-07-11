@@ -365,7 +365,7 @@ install_libsodium() {
 install_mbedtls() {
     if [ ! -f /usr/lib/libmbedtls.a ]; then
         cd ${cur_dir}
-        tar xf ${mbedtls_file}-gpl.tgz
+        tar xf ${mbedtls_file}.tgz
         cd ${mbedtls_file}
         make SHARED=1 CFLAGS=-fPIC
         make DESTDIR=/usr install
