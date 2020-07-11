@@ -360,7 +360,7 @@ download_files(){
 
     download "${shadowsocks_libev_ver}.tar.gz" "${download_link}"
     download "${libsodium_file}.tar.gz" "${libsodium_url}"
-    download "${mbedtls_file}-gpl.tgz" "${mbedtls_url}"
+    download "${mbedtls_file}.tgz" "${mbedtls_url}"
     download "/etc/init.d/shadowsocks" "${init_script_link}"
 }
 
