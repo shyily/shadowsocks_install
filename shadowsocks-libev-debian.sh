@@ -343,7 +343,7 @@ download_files(){
 
     download "${shadowsocks_libev_ver}.tar.gz" "${download_link}"
     download "${libsodium_file}.tar.gz" "${libsodium_url}"
-    download "${mbedtls_file}.tgz" "${mbedtls_url}"
+    download "${mbedtls_file}-gpl.tgz" "${mbedtls_url}"
     download "/etc/init.d/shadowsocks" "${init_script_link}"
 }
 
@@ -365,7 +365,7 @@ install_libsodium() {
 install_mbedtls() {
     if [ ! -f /usr/lib/libmbedtls.a ]; then
         cd ${cur_dir}
-        tar xf ${mbedtls_file}.tgz
+        tar xf ${mbedtls_file}-gpl.tgz
         cd ${mbedtls_file}
         make SHARED=1 CFLAGS=-fPIC
         make DESTDIR=/usr install
