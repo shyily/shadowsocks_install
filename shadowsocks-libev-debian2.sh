@@ -4,7 +4,7 @@ export PATH
 #===================================================================#
 #   System Required:  Debian or Ubuntu                              #
 #   Description: Install Shadowsocks-libev server for Debian/Ubuntu #
-#   Author: Teddysun & xiechangan123                                #
+#   Author: xiechangan123 & Teddysun                                #
 #   Thanks: @madeye <https://github.com/madeye>                     #
 #   Intro:  https://www.xlovett.com/1288.html                       #
 #===================================================================#
