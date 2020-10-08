@@ -4,7 +4,7 @@ export PATH
 #===================================================================#
 #   System Required:  CentOS 6 or 7 or 8                            #
 #   Description: Install Shadowsocks-libev server for CentOS        #
-#   Author: xiechangan123 & teddysun                                #
+#   Author: xiechangan123 & Teddysun                                #
 #   Thanks: @madeye <https://github.com/madeye>                     #
 #   Intro:  https://www.xlovett.com/1288.html                       #
 #===================================================================#
