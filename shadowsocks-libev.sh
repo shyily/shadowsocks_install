@@ -3,8 +3,8 @@ PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 #===================================================================#
 #   System Required:  CentOS 6 or 7 or 8                            #
-#   Description: Install Shadowsocks-libev server for CentOS 6 or 7 #
-#   Author: Teddysun & xiechangan123 <i@teddysun.com>               #
+#   Description: Install Shadowsocks-libev server for CentOS        #
+#   Author: xiechangan123 & teddysun                                #
 #   Thanks: @madeye <https://github.com/madeye>                     #
 #   Intro:  https://www.xlovett.com/1288.html                       #
 #===================================================================#
@@ -119,7 +119,7 @@ print_info(){
     echo "#############################################################"
     echo "# Install Shadowsocks-libev server for CentOS 6 or 7 or 8   #"
     echo "# Intro:  https://www.xlovett.com/1288.html                 #"
-    echo "# Author: Teddysun & xiechangan123<i@xlovett.com>           #"
+    echo "# Author: xiechangan123 & Teddysun                          #"
     echo "# Github: https://github.com/shadowsocks/shadowsocks-libev  #"
     echo "#############################################################"
     echo
