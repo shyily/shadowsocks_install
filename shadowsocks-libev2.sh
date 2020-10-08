@@ -3,8 +3,8 @@ PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 #===================================================================#
 #   System Required:  CentOS 6 or 7 or 8                            #
-#   Description: Install Shadowsocks-libev server for CentOS 6 or 7 #
-#   Author: Teddysun & xiechangan123 <i@teddysun.com>               #
+#   Description: Install Shadowsocks-libev server for CentOS        #
+#   Author: xiechangan123 & Teddysun                                #
 #   Thanks: @madeye <https://github.com/madeye>                     #
 #   Intro:  https://www.xlovett.com/1288.html                       #
 #===================================================================#
@@ -402,12 +402,6 @@ config_shadowsocks(){
         server_value="[\"[::0]\",\"0.0.0.0\"]"
     fi
 
-    if check_kernel_version && check_kernel_headers; then
-        fast_open="true"
-    else
-        fast_open="false"
-    fi
-
     if [ ! -d /etc/shadowsocks-libev ]; then
         mkdir -p /etc/shadowsocks-libev
     fi
@@ -419,7 +413,6 @@ config_shadowsocks(){
     "timeout":300,
     "user":"nobody",
     "method":"${shadowsockscipher}",
-    "fast_open":${fast_open},
     "nameserver":"8.8.8.8",
     "mode":"tcp_and_udp"
 }
